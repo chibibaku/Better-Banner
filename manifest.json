@@ -1,0 +1,23 @@
+{
+    "name": "Better Banner",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "host_permissions": [
+        "https://x.com/",
+        "https://*.x.com/"
+    ],
+    "permissions": [
+        "cookies",
+        "storage"
+    ],
+    "options_page": "options.html",
+    "action": {
+        "default_icon": "./res/BetterBanner.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.x.com/*"],
+            "js": ["./js/main_modifier.js"]
+        }
+    ]
+}

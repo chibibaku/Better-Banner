@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=200px, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="./css/options.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <script src="./js/options.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="./res/BetterBanner.png" alt="icon" id="icon">
+        <h1>Options</h1>
+    </header>
+    <div>
+        <h3>Toggle item to hide:</h3>
+        <p>Checked: show</p>
+        <p>Unchecked: hide</p>
+        <fieldset id="visibility_selector">
+            <legend>Choose what to set visible:</legend>
+            <div id="template" style="display: none;">
+                <input type="checkbox" href="none" id="none" checked />
+                <label>ホーム</label>
+            </div>
+        </fieldset>
+        <div id="status"></div>
+        <div class="buttons">
+            <button id="save">Save</button>
+            <button id="load">Load</button>
+            <button id="load_default">Load default</button>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 <a href="https://x.com/chibibaku1/">@chibibaku1</a></p>
+</body>
+</html>

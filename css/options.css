@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+.buttons {
+  display: flex;
+}

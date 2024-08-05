@@ -1,0 +1,74 @@
+[
+    {
+        "display_name": "ホーム",
+        "href": "/home",
+        "id": "home",
+        "isVisible": true
+    },
+    {
+        "display_name": "話題を検索",
+        "href": "/explore",
+        "id": "explore",
+        "isVisible": true
+    },
+    {
+        "display_name": "通知",
+        "href": "/notifications",
+        "id": "notifications",
+        "isVisible": true
+    },
+    {
+        "display_name": "メッセージ",
+        "href": "/messages",
+        "id": "messages",
+        "isVisible": true
+    },
+    {
+        "display_name": "Grok",
+        "href": "/i/grok",
+        "id": "grok",
+        "isVisible": false
+    },
+    {
+        "display_name": "リスト",
+        "href": "/*/lists",
+        "id": "lists",
+        "isVisible": false
+    },
+    {
+        "display_name": "ブックマーク",
+        "href": "/i/bookmarks",
+        "id": "bookmarks",
+        "isVisible": true
+    },
+    {
+        "display_name": "コミュニティ",
+        "href": "/*/communities",
+        "id": "communities",
+        "isVisible": false
+    },
+    {
+        "display_name": "プレミアム",
+        "href": "/i/premium_sign_up",
+        "id": "premium_sign_up",
+        "isVisible": false
+    },
+    {
+        "display_name": "認証済み組織",
+        "href": "/i/verified-orgs-signup",
+        "id": "verified_orgs_signup",
+        "isVisible": false
+    },
+    {
+        "display_name": "コミュニティノート",
+        "href": "/i/communitynotes",
+        "id": "communitynotes",
+        "isVisible": true
+    },
+    {
+        "display_name": "プロフィール",
+        "href": "/*",
+        "id": "profile",
+        "isVisible": true
+    }
+]
