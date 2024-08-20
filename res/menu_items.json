@@ -42,6 +42,12 @@
         "isVisible": true
     },
     {
+        "display_name": "求人",
+        "href": "/jobs",
+        "id": "jobs",
+        "isVisible": false
+    },
+    {
         "display_name": "コミュニティ",
         "href": "/*/communities",
         "id": "communities",

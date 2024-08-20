@@ -32,3 +32,10 @@ Better Bannerは、Web版𝕏のメニュー項目の表示・非表示をユー
 
 - **options.js**:
   - オプションページとJSONやChrome storage間のやり取りを担う部分です。
+
+## 参考画像
+
+### 導入前
+![導入前](./assets/Before.png "導入前")
+### 導入後
+![導入後](./assets/After.png "導入後")
