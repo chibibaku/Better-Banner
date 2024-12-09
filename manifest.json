@@ -2,6 +2,9 @@
     "name": "Better Banner",
     "version": "1.0.0",
     "manifest_version": 3,
+    "icons": {
+        "128": "./res/BetterBanner.png"
+    },
     "host_permissions": [
         "https://x.com/",
         "https://*.x.com/"
